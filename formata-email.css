@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+ font-family: "Roboto Slab";
+ margin: 0;
+ background-image: url(https://img.freepik.com/free-photo/abstract-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement_1217-2503.jpg?w=1480&t=st=1694713326~exp=1694713926~hmac=e164d98a29c911e1fc329078bb64be680eaeb785e472e899c37c36bcebb28ef8);
+ background-size: cover;
+}
+
+h1 {
+ text-align: center;
+ border: 1px solid #313131;
+ background-color: rgba(134, 134, 134, 0.7);
+ text-shadow: 1px 1px 1px rgba(255,255,255 ,50%);
+ box-shadow: 0 0 5px 5px rgba(59, 59, 59, 0.5);
+ margin: 0;
+ margin-bottom: 40px;
+}
+
+fieldset {
+ width: 900px;
+ margin: auto;
+ background-color: rgba(177, 176, 176, 0.8);
+ padding-top: 10px;
+ }
+ label.alinha{
+  display: inline-block;
+  width: 210px;
+  text-align: right;
+  margin-bottom: 10px;
+ }
+ input[name="aluno"]{
+  width: 350px;
+ }
+
+ input{
+  font-family: "Roboto Slab"; 
+  width: 150px;
+ }
+ div.botao{
+  margin-top: 20px;
+  text-align: center;
+ }
+ button{
+  font-family: "Roboto Slab"; 
+  width: 280px;
+  margin-right: 10px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+ }
+ p{
+  border: 1px solid black;
+  width: 60%;
+  margin: 20px auto;
+  background-color: rgba(110, 110, 110, 0.8);
+  color: white;
+ }
+ span{
+  font-weight: bold;
+  color: rgb(255, 238, 0);
+ }
+ table{
+  width: 50%;
+  margin: 30px auto;
+  border: 1px solid black;
+ }
+td, th{
+ border: 1px solid black;
+ margin: auto;
+}
+th{
+ background-color: rgba(133, 133, 133, 0.8);
+ color: white;
+}
+td{
+ text-align: center;
+}
+a{
+ color: red;
+ text-align: center;
+ font-size: 22px;
+ display: block;
+}
